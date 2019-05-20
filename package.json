@@ -1,6 +1,6 @@
 {
   "name": "logging-wrapper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A library that includes common wrapper for Winston, Bunyan & Morgan. Just install this module and you'll be ready to use winston, bunyan and morgan",
   "main": "index.js",
   "scripts": {
