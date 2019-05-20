@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tejasrsuthar/logging-wrapper.svg?branch=master)](https://travis-ci.org/tejasrsuthar/logging-wrapper)
+
 ### Logging Wrapper
 
 Have you ever tired installing the most common logging modules for your project over and over again?
@@ -9,6 +11,7 @@ Logging wrapper is just providing single object that will consists of all three 
 ### Usage
 
 ###### Winston usage
+
 ```javascript
 // Winston usage
 const loggingWrapper = require("logging-wrapper");
@@ -39,17 +42,16 @@ if (process.env.NODE_ENV !== "production") {
 ```
 
 ###### Morgan usage
+
 ```javascript
-
-morgan('tiny')
+morgan("tiny");
 // For more info, please see: https://www.npmjs.com/package/morgan)
-
 ```
+
 ###### Bunyan usage
 
 ```javascript
-var log = bunyan.createLogger({name: "MyApplication"});
+var log = bunyan.createLogger({ name: "MyApplication" });
 log.info("Hello bunyan");
 // For more info, please see: https://www.npmjs.com/package/bunyan
-
 ```
