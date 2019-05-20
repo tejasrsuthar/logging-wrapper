@@ -1,0 +1,28 @@
+{
+  "name": "logging-wrapper",
+  "version": "1.0.2",
+  "description": "A library that includes common wrapper for Winston, Bunyan & Morgan. Just install this module and you'll be ready to use winston, bunyan and morgan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "winston",
+    "bunyan",
+    "morgan",
+    "logging wrapper",
+    "wrapper",
+    "log",
+    "logging",
+    "json",
+    "logging library",
+    "logger"
+  ],
+  "author": "Tejas Suthar",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  }
+}
