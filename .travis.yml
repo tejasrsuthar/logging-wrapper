@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+  - stable
+
+before_script:
+  - git config --global user.email "tejact2007@gmail.com"
+  - git config --global user.name "Tejas Suthar"
+  - npm install --save-dev mocha
+  - npm install -g mocha
+
+script:
+  - npm test
+
+notifications:
+  email:
+    recipients:
+      - tejact2007@gmail.com
+    on_success: always
+    on_failure: always
