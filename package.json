@@ -1,8 +1,12 @@
 {
   "name": "logging-wrapper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A library that includes common wrapper for Winston, Bunyan & Morgan. Just install this module and you'll be ready to use winston, bunyan and morgan",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tejasrsuthar/logging-wrapper.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },

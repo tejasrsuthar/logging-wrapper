@@ -1,7 +1,7 @@
 [![npm version](https://img.shields.io/npm/v/logging-wrapper.svg?style=flat)](https://www.npmjs.com/package/logging-wrapper)
 [![Build Status](https://travis-ci.org/tejasrsuthar/logging-wrapper.svg?branch=master)](https://travis-ci.org/tejasrsuthar/logging-wrapper)
 
-### 🔥🔥Logging Wrapper 🔥🔥
+# Logging Wrapper
 
 Have you ever tired installing the most common logging modules for your project over and over again? If yes, then this module is for you. Its just a wrapper around the most commonly used logging modules in node.js
 
