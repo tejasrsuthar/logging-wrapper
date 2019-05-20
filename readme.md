@@ -8,6 +8,7 @@ Logging wrapper is just providing single object that will consists of all three 
 
 ### Usage
 
+###### Winston usage
 ```javascript
 // Winston usage
 const loggingWrapper = require("logging-wrapper");
@@ -35,15 +36,20 @@ if (process.env.NODE_ENV !== "production") {
     })
   );
 }
+```
 
-// Morgan usage
+###### Morgan usage
+```javascript
 
 morgan('tiny')
-For more info, please see: https://www.npmjs.com/package/morgan
+// For more info, please see: https://www.npmjs.com/package/morgan)
 
-// Bunyan usage
+```
+###### Bunyan usage
+
+```javascript
 var log = bunyan.createLogger({name: "MyApplication"});
 log.info("Hello bunyan");
-For more info, please see: https://www.npmjs.com/package/bunyan
+// For more info, please see: https://www.npmjs.com/package/bunyan
 
 ```
